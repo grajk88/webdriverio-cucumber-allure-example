@@ -1,0 +1,66 @@
+{
+  "uid" : "869f52890aa6d02c",
+  "name" : "Hook",
+  "fullName" : "Parabank Sample Scenarios: Login Successful.Hook",
+  "historyId" : "310e94d9c59415a113e3cbea6cd3f17e",
+  "time" : {
+    "start" : 1593110546861,
+    "stop" : 1593110546861,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Parabank Sample Scenarios: Login Successful"
+  }, {
+    "name" : "testClass",
+    "value" : "Parabank Sample Scenarios: Login Successful"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Parabank Sample Scenarios: Login Successful"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "abc7cb0a53e906aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593110508034,
+        "stop" : 1593110508035,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "869f52890aa6d02c.json",
+  "parameterValues" : [ "chrome" ]
+}

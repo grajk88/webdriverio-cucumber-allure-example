@@ -1,0 +1,117 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Parabank Sample Scenarios: Login Successful",
+    "children" : [ {
+      "name" : "Given I am in the login page",
+      "uid" : "3cb0a6f9886b767f",
+      "parentUid" : "b7f2839e063fb2a3271e33a9ab8944f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593110508036,
+        "stop" : 1593110544637,
+        "duration" : 36601
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I try to login with valid credentials",
+      "uid" : "8919a44f8cac9412",
+      "parentUid" : "b7f2839e063fb2a3271e33a9ab8944f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593110544637,
+        "stop" : 1593110546333,
+        "duration" : 1696
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should be able to login successfully",
+      "uid" : "9d44a1f0cbc415d5",
+      "parentUid" : "b7f2839e063fb2a3271e33a9ab8944f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593110546334,
+        "stop" : 1593110546860,
+        "duration" : 526
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "869f52890aa6d02c",
+      "parentUid" : "b7f2839e063fb2a3271e33a9ab8944f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593110546861,
+        "stop" : 1593110546861,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b7f2839e063fb2a3271e33a9ab8944f6"
+  }, {
+    "name" : "Parabank Sample Scenarios: Bill payment",
+    "children" : [ {
+      "name" : "Given I am in the Accounts overview page",
+      "uid" : "a831e24da074c6cb",
+      "parentUid" : "576c484af9e962189ed12237d824c6fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593110546876,
+        "stop" : 1593110548362,
+        "duration" : 1486
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I try to do a payment for a bill",
+      "uid" : "ec7a5ff7d1fb5b82",
+      "parentUid" : "576c484af9e962189ed12237d824c6fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593110548362,
+        "stop" : 1593110550013,
+        "duration" : 1651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should be able to pay successfully",
+      "uid" : "adf0df2ecbf96da5",
+      "parentUid" : "576c484af9e962189ed12237d824c6fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593110550013,
+        "stop" : 1593110550014,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "861e2136b16b0ede",
+      "parentUid" : "576c484af9e962189ed12237d824c6fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593110550014,
+        "stop" : 1593110550014,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "576c484af9e962189ed12237d824c6fd"
+  } ],
+  "name" : "suites"
+}

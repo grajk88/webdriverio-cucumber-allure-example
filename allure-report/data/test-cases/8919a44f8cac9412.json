@@ -1,0 +1,230 @@
+{
+  "uid" : "8919a44f8cac9412",
+  "name" : "When I try to login with valid credentials",
+  "fullName" : "Parabank Sample Scenarios: Login Successful.When I try to login with valid credentials",
+  "historyId" : "1c4050090c3b7c95854a96aad5a3244",
+  "time" : {
+    "start" : 1593110544637,
+    "stop" : 1593110546333,
+    "duration" : 1696
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1593110544639,
+        "stop" : 1593110544657,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "affafb8a0c13361",
+        "name" : "Request",
+        "source" : "affafb8a0c13361.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "b652ebd29308331b",
+        "name" : "Response",
+        "source" : "b652ebd29308331b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/eb76d40b-ae0a-4b23-be08-99e282acbfe8/clear",
+      "time" : {
+        "start" : 1593110544662,
+        "stop" : 1593110544696,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/eb76d40b-ae0a-4b23-be08-99e282acbfe8/value",
+      "time" : {
+        "start" : 1593110544698,
+        "stop" : 1593110544754,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69bc523138897f72",
+        "name" : "Request",
+        "source" : "69bc523138897f72.json",
+        "type" : "application/json",
+        "size" : 20
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1593110544755,
+        "stop" : 1593110544767,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fcc752ded00662b4",
+        "name" : "Request",
+        "source" : "fcc752ded00662b4.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "9fd37afc5d1ed97a",
+        "name" : "Response",
+        "source" : "9fd37afc5d1ed97a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/d2281427-0c38-4412-8f8d-8d38513abda9/clear",
+      "time" : {
+        "start" : 1593110544768,
+        "stop" : 1593110544802,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/d2281427-0c38-4412-8f8d-8d38513abda9/value",
+      "time" : {
+        "start" : 1593110544802,
+        "stop" : 1593110544841,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e10e3a7db07224b5",
+        "name" : "Request",
+        "source" : "e10e3a7db07224b5.json",
+        "type" : "application/json",
+        "size" : 20
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1593110544842,
+        "stop" : 1593110546326,
+        "duration" : 1484
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "714cab0ef835b4c",
+        "name" : "Request",
+        "source" : "714cab0ef835b4c.json",
+        "type" : "application/json",
+        "size" : 253
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1593110546326,
+        "stop" : 1593110546333,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Parabank Sample Scenarios: Login Successful"
+  }, {
+    "name" : "testClass",
+    "value" : "Parabank Sample Scenarios: Login Successful"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I try to login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Parabank Sample Scenarios: Login Successful"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8919a44f8cac9412.json",
+  "parameterValues" : [ "chrome" ]
+}

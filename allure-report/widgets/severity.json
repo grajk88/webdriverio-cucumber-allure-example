@@ -1,0 +1,81 @@
+[ {
+  "uid" : "a831e24da074c6cb",
+  "name" : "Given I am in the Accounts overview page",
+  "time" : {
+    "start" : 1593110546876,
+    "stop" : 1593110548362,
+    "duration" : 1486
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "861e2136b16b0ede",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1593110550014,
+    "stop" : 1593110550014,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec7a5ff7d1fb5b82",
+  "name" : "When I try to do a payment for a bill",
+  "time" : {
+    "start" : 1593110548362,
+    "stop" : 1593110550013,
+    "duration" : 1651
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cb0a6f9886b767f",
+  "name" : "Given I am in the login page",
+  "time" : {
+    "start" : 1593110508036,
+    "stop" : 1593110544637,
+    "duration" : 36601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "869f52890aa6d02c",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1593110546861,
+    "stop" : 1593110546861,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d44a1f0cbc415d5",
+  "name" : "Then I should be able to login successfully",
+  "time" : {
+    "start" : 1593110546334,
+    "stop" : 1593110546860,
+    "duration" : 526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adf0df2ecbf96da5",
+  "name" : "Then I should be able to pay successfully",
+  "time" : {
+    "start" : 1593110550013,
+    "stop" : 1593110550014,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8919a44f8cac9412",
+  "name" : "When I try to login with valid credentials",
+  "time" : {
+    "start" : 1593110544637,
+    "stop" : 1593110546333,
+    "duration" : 1696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

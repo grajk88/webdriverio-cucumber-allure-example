@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#rightPanel > div > div:nth-child(2) > p:nth-child(2)"
+}

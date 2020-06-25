@@ -1,0 +1,58 @@
+{
+  "uid" : "adf0df2ecbf96da5",
+  "name" : "Then I should be able to pay successfully",
+  "fullName" : "Parabank Sample Scenarios: Bill payment.Then I should be able to pay successfully",
+  "historyId" : "2186c8f544349572a91b2739f15b35dc",
+  "time" : {
+    "start" : 1593110550013,
+    "stop" : 1593110550014,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Parabank Sample Scenarios: Bill payment"
+  }, {
+    "name" : "testClass",
+    "value" : "Parabank Sample Scenarios: Bill payment"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should be able to pay successfully"
+  }, {
+    "name" : "package",
+    "value" : "Parabank Sample Scenarios: Bill payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "adf0df2ecbf96da5.json",
+  "parameterValues" : [ "chrome" ]
+}

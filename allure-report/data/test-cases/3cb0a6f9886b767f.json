@@ -1,0 +1,110 @@
+{
+  "uid" : "3cb0a6f9886b767f",
+  "name" : "Given I am in the login page",
+  "fullName" : "Parabank Sample Scenarios: Login Successful.Given I am in the login page",
+  "historyId" : "6915594f722e5bbb3bc33512c7ad630d",
+  "time" : {
+    "start" : 1593110508036,
+    "stop" : 1593110544637,
+    "duration" : 36601
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1593110508040,
+        "stop" : 1593110544475,
+        "duration" : 36435
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "38dd1b82a05cd55",
+        "name" : "Request",
+        "source" : "38dd1b82a05cd55.json",
+        "type" : "application/json",
+        "size" : 63
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1593110544475,
+        "stop" : 1593110544636,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd608c8cd8464de5",
+        "name" : "Response",
+        "source" : "fd608c8cd8464de5.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Parabank Sample Scenarios: Login Successful"
+  }, {
+    "name" : "testClass",
+    "value" : "Parabank Sample Scenarios: Login Successful"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am in the login page"
+  }, {
+    "name" : "package",
+    "value" : "Parabank Sample Scenarios: Login Successful"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cb0a6f9886b767f.json",
+  "parameterValues" : [ "chrome" ]
+}

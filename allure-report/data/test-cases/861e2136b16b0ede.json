@@ -1,0 +1,66 @@
+{
+  "uid" : "861e2136b16b0ede",
+  "name" : "Hook",
+  "fullName" : "Parabank Sample Scenarios: Bill payment.Hook",
+  "historyId" : "77fc9a40990e480459e4817a1260d72e",
+  "time" : {
+    "start" : 1593110550014,
+    "stop" : 1593110550014,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Parabank Sample Scenarios: Bill payment"
+  }, {
+    "name" : "testClass",
+    "value" : "Parabank Sample Scenarios: Bill payment"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Parabank Sample Scenarios: Bill payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fe83703ba80dc293",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593110546875,
+        "stop" : 1593110546875,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "861e2136b16b0ede.json",
+  "parameterValues" : [ "chrome" ]
+}

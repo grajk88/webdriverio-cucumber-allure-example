@@ -1,0 +1,164 @@
+{
+  "uid" : "9d44a1f0cbc415d5",
+  "name" : "Then I should be able to login successfully",
+  "fullName" : "Parabank Sample Scenarios: Login Successful.Then I should be able to login successfully",
+  "historyId" : "c024877ac7f80df280438a35c61ddc26",
+  "time" : {
+    "start" : 1593110546334,
+    "stop" : 1593110546860,
+    "duration" : 526
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1593110546335,
+        "stop" : 1593110546352,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79be44bd625afbe1",
+        "name" : "Request",
+        "source" : "79be44bd625afbe1.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "e0e54debaf998ce1",
+        "name" : "Response",
+        "source" : "e0e54debaf998ce1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1593110546354,
+        "stop" : 1593110546370,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9fae204ead7cc8b2",
+        "name" : "Request",
+        "source" : "9fae204ead7cc8b2.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "27fad6b2c0c3f52a",
+        "name" : "Response",
+        "source" : "27fad6b2c0c3f52a.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1593110546372,
+        "stop" : 1593110546395,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "582aaad79ab23a5",
+        "name" : "Request",
+        "source" : "582aaad79ab23a5.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "2f6182ae46713e78",
+        "name" : "Response",
+        "source" : "2f6182ae46713e78.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/73f10d87-bda1-4e58-96ab-b59cb53703cc/click",
+      "time" : {
+        "start" : 1593110546397,
+        "stop" : 1593110546860,
+        "duration" : 463
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Parabank Sample Scenarios: Login Successful"
+  }, {
+    "name" : "testClass",
+    "value" : "Parabank Sample Scenarios: Login Successful"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should be able to login successfully"
+  }, {
+    "name" : "package",
+    "value" : "Parabank Sample Scenarios: Login Successful"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d44a1f0cbc415d5.json",
+  "parameterValues" : [ "chrome" ]
+}
