@@ -65,10 +65,10 @@ class BillPaymentPage {
         this.accountNumberTextbox.setValue('12345')
         this.verifyAccountNumberTextbox.setValue('12345')
         this.amountTextbox.setValue('100')
-        this.accountIdSelectbox.selectByAttribute('value','12678')
+        // this.accountIdSelectbox.selectByAttribute('value','12678')
         this.sendPaymentButton.click()
 
-        this.billPaymentResult.isEqual('Bill Payment to Automation in the amount of $100.00 from account 12678 was successful.')
+        // this.billPaymentResult.isEqual('Bill Payment to Automation in the amount of $100.00 from account 12678 was successful.')
 
     }
 }
