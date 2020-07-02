@@ -1,5 +1,7 @@
 # WebDriverIO v6 - Cucumber Integration, Page Objects and Allure Report Example
 
+![Book Cover](https://github.com/grajk88/learning-webdriverio-handbook/blob/master/book-cover.png)
+
 This project contains a sample code for Cucumber integration with WebDriverIO v6 with Page Objects design pattern and Allure reports. 
 
 ## How to use?
