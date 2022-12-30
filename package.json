@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@rpii/wdio-html-reporter": "^6.0.6",
+    "@rpii/wdio-html-reporter": "^6.4.0",
     "@wdio/cli": "^6.1.20"
   },
   "devDependencies": {
